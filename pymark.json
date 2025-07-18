@@ -1,0 +1,17 @@
+{
+  "address": "/dev/ttyACM0",
+  "sync_folder": "./",
+  "open_on_start": true,
+  "safe_boot_on_upload": true,
+  "sync_file_types": ".py,.txt",
+  "ctrl_c_on_connect": true,
+  "baud_rate": 115200,
+  "ignore": [
+    ".vscode",
+    ".git",
+    ".idea",
+    "__pycache__",
+    "pymakr.conf",
+    "pymakr.settings"
+  ]
+}

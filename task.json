@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Upload main.py",
+      "type": "shell",
+      "command": "mpremote connect /dev/ttyACM0 fs cp main.py :main.py",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "REPL",
+      "type": "shell",
+      "command": "mpremote connect /dev/ttyACM0",
+      "group": "test",
+      "problemMatcher": []
+    }
+  ]
+}
