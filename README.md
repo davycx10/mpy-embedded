@@ -1,5 +1,11 @@
 # mpy-embedded
 
+python3 -m venv .venv
+pip install -r requirements.txt
+
+
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 Personal Project: Learning MicroPython with the Raspberry Pi Pico W
 This project is a personal logbook for learning the basics of embedded programming with MicroPython, using a Raspberry Pi Pico W and the Freenove Basic Starter Kit.
 

@@ -1,0 +1,9 @@
+mpremote
+rshell
+ampy
+pyserial
+esptool
+
+black        # Formatage automatique de code
+ruff         # Linter performant pour Python
+mypy         # Typage statique (utile si tu as des modules partagés entre Python et MicroPython)
