@@ -1,0 +1,4 @@
+toggle permet de basculer les led (si c'est allumer ça va s'éteindre etc...)
+on: allume les led
+off eteint la led
+value: 1 pour allumer la led, 0 pour eteindre la led

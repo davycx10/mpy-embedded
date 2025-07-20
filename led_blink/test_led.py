@@ -1,10 +1,7 @@
-from machine import Pin
-import time
+from time import sleep as time
+from  machine import Pin
 
-led = Pin("LED", Pin.OUT)
+myLED = Pin('LED',Pin.OUT)
+myLED.toggle()
+time(0.1)
 
-while True:
-    led.toggle()
-    time.sleep(0.5)
-
-print(f"device bien connecter")
