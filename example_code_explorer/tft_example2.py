@@ -23,8 +23,8 @@ CHAR_WIDTH = 8
 CHAR_HEIGHT = 16
 
 # Texte à afficher
-line1 = "Qui pour me donner des"
-line2 = "cours gratuits ? "
+line1 = "c'est une"
+line2 = "prise d'otage"
 
 # Fonction pour calculer X centré
 def center_x(text):
